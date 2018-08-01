@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './HelloWorld'
+import Message from './Message'
 
 class App extends Component {
   render() {
@@ -17,7 +17,7 @@ class App extends Component {
             To get started, edit <code>src/App.js</code> and save to reload.
           </p>
         </div>
-        <HelloWorld />
+        <Message />
       </Fragment>
     );
   }
