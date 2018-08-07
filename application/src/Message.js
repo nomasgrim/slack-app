@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 
 class Message extends Component {
 
@@ -6,7 +6,7 @@ class Message extends Component {
         const array = ['Landon', 'Cliff', 'Calvin', 'Armin'];
 
         return (
-            <Fragment>
+            <div>
                 <ul className="Message">
                 {
                     array.map((item, index) => 
@@ -20,7 +20,7 @@ class Message extends Component {
                 }
                 </ul>
                 <h1>Cliff Hello</h1>
-            </Fragment>
+            </div>
         );
     }
     
